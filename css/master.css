@@ -36,7 +36,7 @@ section{
   width: 13em;
   text-decoration: none;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 26px;
   text-align: center;
 }
 
@@ -108,11 +108,17 @@ section{
 
 @media (max-aspect-ratio: 1/1) {
   #introduction{
-    padding-top: 50%;
-    padding-left: 20%;
+    padding: 0 auto;
+    padding-top: 60%;
   }
+
+  .in-white{
+    font-size: 3rem;
+  }
+
   .button {
-    margin-left: 25%;
+    margin-left: 5%;
+    margin-top: 10%;
   }
 
   #presentation{
@@ -123,17 +129,20 @@ section{
     order: 2;
     align-self: center;
     width: 80%;
+    padding: 0 10%;
   }
 
   .image-container{
     order: 1;
     width: 100%;
+    padding: 10% 0;
   }
 
   .my-competence{
     order: 3;
     align-self: center;
     width: 80%;
+    padding: 0 10%;
   }
 
   #presentation h3{
@@ -143,9 +152,23 @@ section{
   }
 
   #presentation p, ul, h4{
-    font-size: 0.5em;
+    font-size: 0.85em;
     list-style: none;
     text-align: center;
+  }
+
+  #presentation ul {
+    margin:0;
+    padding:0;
+    text-align: center;
+  }
+
+  #presentation li:last-child{
+    padding-bottom: 2%;
+  }
+
+  #sectionB{
+    height: 150vh;
   }
 
   #sectionB .button{
