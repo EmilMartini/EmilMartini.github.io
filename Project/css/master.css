@@ -5,8 +5,6 @@
 }
 
 section{
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100vh;
   overflow: auto;
@@ -46,10 +44,9 @@ section{
 .buttonstyle{
   text-align: center;
   border-radius: 56px;
-  padding: 26px;
+  padding: 2%;
   color: white;
   background: #FE5F55;
-  transition: all 0.2s ease-out 0s;
 }
 
 #presentation img {
@@ -154,4 +151,14 @@ ul{
 
 .nav-placeholder li a:hover{
   background-color: #111;
+}
+
+@media (max-aspect-ratio: 1/1) {
+  #introduction{
+    padding-top: 50%;
+    padding-left: 20%;
+  }
+  .button {
+    margin-left: 25%;
+  }
 }
