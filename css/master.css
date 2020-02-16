@@ -56,7 +56,7 @@ section{
 .about-me{
   order: 1;
   width: 25%;
-  padding: 10% 0 0 4%;
+  padding: 5% 0 0 4%;
 }
 
 .image-container{
@@ -71,7 +71,7 @@ section{
 .my-competence{
   order: 3;
   width: 25%;
-  padding: 10% 0 0 4%;
+  padding: 5% 0 0 4%;
 }
 
 #presentation{
@@ -97,6 +97,7 @@ section{
 
 #presentation ul {
   margin-bottom: 4%;
+  margin-top: 2%;
 }
 
 #presentation h2{
@@ -108,7 +109,7 @@ section{
   font-size: 0.8em;
 }
 
-#sectionB .button{
+#sectionB .button, #sectionC .button{
   margin: 0 auto;
 }
 
@@ -117,12 +118,12 @@ section{
   flex-direction: row;
   align-items: baseline;
   justify-content: center;
-  margin-top: -5%;
+  margin-top: -10%;
 }
 
 #contact a {
   text-align: center;
-  margin: 4% 2% 2% 2%;
+  margin: 0 2% 2% 2%;
 }
 
 #contact img{
@@ -134,30 +135,12 @@ section{
 }
 
 #projects{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: baseline;
-  justify-content: center;
-}
-
-#projects ul{
-  list-style: none;
-}
-
-.project{
   text-align: center;
-  margin: 5%;
-  width: 30%;
+  margin: 40vh auto;
 }
 
-.project img{
-  width: 80%;
-  height: auto;
-}
-
-.project-description{
-  padding-top: 3%;
+#projects .button{
+  margin-top: 1%;
 }
 
 .in-white{
@@ -231,7 +214,7 @@ section{
   }
 
   #sectionB{
-    height: 190vh;
+    height: 240vh;
   }
 
   #sectionB .button{
@@ -247,14 +230,11 @@ section{
     margin: 10%;
   }
 
-  #projects{
-    flex-direction: column;
-    align-items: center;
+  #sectionC .button{
+    margin: 5% auto;
   }
 
-  .project{
-    margin-top: 10%;
-    width: 100%;
-    font-size: 1em;
+  #sectionC a{
+    font-size: 2em;
   }
 }
