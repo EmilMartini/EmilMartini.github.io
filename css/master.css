@@ -171,8 +171,12 @@ section{
   .about-me{
     order: 3;
     align-self: center;
-    width: 80%;
+    width: 90%;
     padding-top: 10%;
+  }
+
+  .about-me ul{
+    padding-top: 2%;
   }
 
   .image-container{
@@ -184,7 +188,7 @@ section{
   .my-competence{
     order: 2;
     align-self: center;
-    width: 80%;
+    width: 90%;
   }
 
   #presentation h2 {
@@ -203,8 +207,9 @@ section{
     text-align: center;
   }
 
-  #presentation ul, #projects ul {
+  #presentation ul {
     margin:0;
+    margin-bottom:
     padding:0;
     text-align: center;
   }
