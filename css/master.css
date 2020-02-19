@@ -11,7 +11,7 @@ section{
   float: left;
 }
 
-#sectionA, #sectionC{
+#sectionA, #experience{
   background-color: #333745;
 }
 
@@ -19,7 +19,7 @@ section{
   background-color: #C7EFCF;
 }
 
-#sectionC{
+#experience{
   color: white;
 }
 
@@ -127,7 +127,7 @@ section{
   order: 1;
 }
 
-#sectionC{
+#experience{
   display: flex;
   flex-direction: row;
   align-items: baseline;
@@ -135,15 +135,15 @@ section{
   font-size: 1.2em;
 }
 
-#sectionC h2{
+#experience h2{
   padding-bottom: 1em;
 }
 
-#sectionC p{
+#experience p{
   padding-bottom: 1em;
 }
 
-#sectionC ul {
+#experience ul {
   padding-bottom: 1em;
 }
 
@@ -157,15 +157,6 @@ section{
   order:2;
   width: 40%;
   margin: 5%;
-}
-
-#projects{
-  text-align: center;
-  margin: 40vh auto;
-}
-
-#projects .button{
-  margin-top: -5%;
 }
 
 .in-white{
@@ -217,7 +208,7 @@ section{
     padding-top: 10%;
   }
 
-  #sectionC{
+  #experience{
     height: 200vh;
   }
 
@@ -233,7 +224,7 @@ section{
     order: 2;
     text-align: center;
     align-self: center;
-    width: 90%;
+    width: 80%;
     padding-left: 0%;
   }
 
@@ -277,34 +268,34 @@ section{
   }
 
   #contact-container{
-    margin-top: 15%;
+    margin-top: 4%;
   }
   #contact{
     justify-content: center;
   }
 
   #contact img{
-    width: 20vw;
+    width: 17vw;
   }
 
   #contact{
-    margin: 2% auto;
+    margin: 0 auto;
   }
 
-  #sectionC {
+  #experience {
     flex-direction: column;
     height: 220vh;
   }
 
-  #sectionC .button{
+  #experience .button{
     margin: 5% auto;
   }
 
-  #sectionC a{
+  #experience a{
     font-size: 2em;
   }
 
-  #sectionC ul {
+  #experience ul {
     padding-bottom: 1em;
   }
 
