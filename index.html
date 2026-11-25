@@ -1,111 +1,287 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Emil Martini CV</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Emil Martini – Team Manager &amp; Cloud Integration</title>
+  <meta name="description" content="Emil Martini, Team Manager and Cloud Integration Architect at Contica in Gothenburg. Experience, selected work and contact details.">
+  <meta name="theme-color" content="#111216">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/master.css">
-  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
-  <section id="sectionA">
-    <div id="introduction">
-      <p>My name is <span class="in-white">Emil Martini</span><br>I'm currently studying <span class="in-white">Fullstack Software Development .Net</span></p>
-      <a href="#presentation" class="button buttonstyle">Who Am I?</a>
-    </div>
-  </section>
-  <section id="sectionB">
-    <div id="presentation">
-      <span class="image-container">
-        <img src="Images/V82ccm7A.jpeg" alt="Professional photo">
-      </span>
-      <article class="about-me">
-        <h2>About Me</h2>
-        <p>I am a 23 year old student. I live in an apartment in Varberg, just south of Gothenburg.
-          Usually in my spare time I play games with my friends or practice drums with my band. This have I done since I was 7 years old, and I still enjoy it just as much.
+  <a class="skip" href="#main">Skip to content</a>
 
-          If I have some time to spare I like to spend it with the family dog, Båtsman. We usually go for long hikes in the forest.<br>
-          I like to learn new things and I love connecting with new people. Because of that I enjoy working in a team, but I always stay focused on my own tasks and do my work to best of my abilities.<br>
-          <br>
-          After graduating from High School I started working as a care assistant for Varbergs Omsorg. I really enjoyed it but after doing it for three years I felt that my creative and problem solving self wasn't satisfied.
-          Since I like technology I started working as a Fiber Techinician for Optotech AB, but quickly realised that I actually wanted to study software development. This has been the best choice I have ever made.
-          <br>
-          <br>
-          I have always had a huge interest for IT, specifically programming, since I like to know how things are made from the ground up.
-          I like to think that I have a very driven personality, when I find something I enjoy, I do it to the fullest.<br>
-          <br>
-          As of now I am on the lookout for an internship employment as a software developer in Gothenburg. Looking forward to hear from you!
-          <br>
-          <br>
-          Please contact me on <a href="mailto:emil.martini@hotmail.com">emil.martini@hotmail.com</a>
-        </p>
+  <nav class="dock" aria-label="Sections">
+    <a href="#work">Work</a>
+    <a href="#experience">Experience</a>
+    <a href="#about">About</a>
+    <a href="#contact" class="dock-cta">Contact</a>
+  </nav>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <svg class="routes" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <g fill="none" stroke="currentColor" stroke-width="1.2">
+          <path d="M-20 180 C 260 180, 300 420, 560 420 S 900 140, 1180 220 S 1400 520, 1480 500"/>
+          <path d="M-20 640 C 220 640, 320 520, 560 420 S 860 760, 1120 700 S 1380 300, 1480 260"/>
+          <path d="M240 -20 C 240 220, 420 300, 560 420 S 700 720, 660 920"/>
+          <path d="M1180 -20 C 1180 120, 1180 160, 1180 220 S 1120 560, 1120 700 S 1200 860, 1220 920"/>
+          <path d="M-20 400 C 180 400, 380 420, 560 420"/>
+        </g>
+        <g fill="none" stroke-width="2" class="signal">
+          <path d="M-20 180 C 260 180, 300 420, 560 420 S 900 140, 1180 220 S 1400 520, 1480 500"/>
+          <path d="M-20 640 C 220 640, 320 520, 560 420 S 860 760, 1120 700 S 1380 300, 1480 260"/>
+        </g>
+        <g class="nodes">
+          <circle cx="560" cy="420" r="9"/><circle cx="1180" cy="220" r="7"/><circle cx="1120" cy="700" r="7"/>
+          <circle cx="240" cy="182" r="5"/><circle cx="330" cy="560" r="5"/><circle cx="860" cy="300" r="5"/>
+        </g>
+      </svg>
+
+      <div class="hero-meta">
+        <p>Team Manager<br>&amp; Cloud Integration Architect</p>
+        <p class="right"><a href="https://www.contica.se">Contica ↗</a><br>Gothenburg, SE</p>
+      </div>
+
+      <figure class="portrait">
+        <img src="Images/V82ccm7A.jpeg" alt="Portrait of Emil Martini" width="666" height="666">
+        <figcaption><span>Fig. 01</span><span>At Contica since 2020</span></figcaption>
+      </figure>
+
+      <h1 class="name">
+        <span class="first">Emil</span>
+        <span class="last-wrap"><span class="last" data-fit>Martini</span></span>
+      </h1>
+
+      <div class="hero-foot">
+        <p class="lead">I lead two teams, eleven people, building integration platforms on Azure.</p>
+        <a class="scroll-cue" href="#statement">Scroll <span aria-hidden="true">↓</span></a>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Azure Integration Services</span><i>✳</i><span class="serif">Leadership</span><i>✳</i><span>API Management</span><i>✳</i><span class="serif">Architecture</span><i>✳</i><span>FinOps</span><i>✳</i><span class="serif">Delivery</span><i>✳</i>
+        <span>Azure Integration Services</span><i>✳</i><span class="serif">Leadership</span><i>✳</i><span>API Management</span><i>✳</i><span class="serif">Architecture</span><i>✳</i><span>FinOps</span><i>✳</i><span class="serif">Delivery</span><i>✳</i>
+      </div>
+    </div>
+
+    <!-- STATEMENT -->
+    <section class="statement" id="statement">
+      <p class="kicker reveal">What I do</p>
+      <p class="big reveal">
+        Leading <em>teams</em>, designing <em>platforms</em>, and connecting the systems
+        that keep bookings, customs and supply chains <em>moving</em>.
+      </p>
+      <ul class="stats">
+        <li class="reveal"><strong>6<sup>+</sup></strong><span>years in cloud and integration</span></li>
+        <li class="reveal"><strong>11</strong><span>people in the two teams I lead</span></li>
+        <li class="reveal"><strong>80<sup>%</sup></strong><span>shorter lead times through better process</span></li>
+        <li class="reveal"><strong><sup>&gt;</sup>99<sup>%</sup></strong><span>uptime on a critical customs flow</span></li>
+      </ul>
+    </section>
+
+    <!-- WORK -->
+    <section class="work light" id="work">
+      <header class="section-head">
+        <p class="kicker">Selected work</p>
+        <h2>Four <em>projects</em><br>I can talk about</h2>
+      </header>
+
+      <article class="case reveal">
+        <p class="idx">01</p>
+        <div class="case-main">
+          <p class="case-meta">2023 – ongoing · Azure</p>
+          <h3>Rebuilding a scalable <em>integration platform</em></h3>
+          <p>Identified the need for a complete rework of a customer's integration platform before the customer saw it themselves, then led sales, design and implementation of a scalable, cost-efficient cloud platform that removed redundancy and optimised resource use. It became a larger investment in the customer's digitalisation, enabling fast growth and company acquisitions.</p>
+        </div>
+        <p class="case-role"><span>My part</span>Solution architect and project lead</p>
       </article>
-    </div>
-    <div id="contact-container">
-      <div id="contact">
-        <a href="https://www.linkedin.com/in/emil-martini-247520192" target="_blank"><img src="./Images/contact-linkedIn.png" alt="LinkedIn"></a>
-        <a href="https://github.com/EmilMartini" target="_blank"><img src="./Images/contact-github.png" alt="GitHub"></a>
-        <a href="mailto:emil.martini@hotmail.com"><img src="./Images/contact-email.png" alt="Email"></a>
-      </div>
-      <a href="#experience" class="button buttonstyle">My Experience/Education</a>
-    </div>
-  </section>
-  <section id="experience">
-    <div id="my-experience">
-      <div id="my-education">
-        <h1 class="in-orange">My Education</h1>
-        <h3>2019-2021 IT-Högskolan, Göteborg (current)</h3>
-        <p>I am currently enrolled in a two year program to become a Full Stack developer on the .Net platform at IT-Högskolan, Göteborg.<br>
-          <br>
-          Key skills learned so far:</p>
-          <ul>
-            <li>C# .Net Framework & Core</li>
-            <li>SQL & NoSQL databases such as Entity Framework & MongoDB</li>
-            <li>ASP.Net</li>
-          </ul>
-          <br>
-          <br>
-          <h3>2012-2015 Economics & Law, Peder Skrivares Skola</h3>
-          <br>
-          <br>
-          <br>
+
+      <article class="case reveal">
+        <p class="idx">02</p>
+        <div class="case-main">
+          <p class="case-meta">2022 – 2023 · Shipping</p>
+          <h3>Critical <em>customs</em> handling after Brexit</h3>
+          <p>Designed and implemented a highly available integration flow for a large European shipping company to meet customs requirements after Brexit. It has had more than 99% uptime since go-live and handles tens of thousands of critical messages every day.</p>
         </div>
-        <div id="work">
-          <h1 class="in-orange">Work Experience</h1>
-          <h3>2018 - 2019 Optotech AB</h3>
-          <p>Worked as a Fiber Techinician, installed fiber optics for customers.</p>
-          <h3>2015 - 2018 Varbergs Omsorg</h3>
-          <p>Worked as a care assistant. We worked by ourselves and also in pairs.</p>
-          <h3>2012 - 2015 Ica Supermarket</h3>
-          <p>Assisting manager of the Freezing Compartment</p>
+        <p class="case-role"><span>My part</span>Solution architect, lead developer and project lead</p>
+      </article>
+
+      <article class="case reveal">
+        <p class="idx">03</p>
+        <div class="case-main">
+          <p class="case-meta">Shipping · Azure Integration Services</p>
+          <h3>Digitalising a shipping line's <em>booking flow</em></h3>
+          <p>A Swedish shipping company handled its bookings largely by hand, and the workload was set to grow with the business. The project digitalises the booking process, with the goal of automating up to 90% of all bookings and laying a digital foundation for further growth.</p>
+          <p class="case-link"><a href="https://contica.se/om-oss/kundcase/nar-verksamhetsforstalse-avgor-integrationspartner/">Read the case (Swedish) ↗</a></p>
         </div>
-      </div>
-      <article id="my-competence">
-        <h2 class="in-orange">Technologies</h2>
-        <h3>Languages</h3>
-        <ul>
-          <li>C# .Net Framework & Core</li>
-          <li>SQL</li>
-          <li>HTML, CSS, PHP</li>
-          <li>Javascript</li>
-        </ul>
-        <h3>Skills & things worth mentioning</h3>
-        <ul>
-          <li>Version Control, such as Git</li>
-          <li>Agile Development</li>
-          <li>MongoDB</li>
-          <li>Azure Environment</li>
-          <li>Entity Framework</li>
-          <li>Xamarin</li>
-          <li>Bash</li>
-          <li>Unity Engine</li>
-        </ul>
-        <h3>Communication</h3>
-        <h4>Fluent speaking & writing</h4>
-        <ul>
-          <li>English</li>
-          <li>Swedish</li>
-        </ul>
+        <p class="case-role"><span>My part</span>Solution architect, lead developer and project lead</p>
+      </article>
+
+      <article class="case reveal">
+        <p class="idx">04</p>
+        <div class="case-main">
+          <p class="case-meta">Manufacturing · BizTalk to Azure</p>
+          <h3>Ascom: from <em>BizTalk</em> to Azure</h3>
+          <p>Ascom ran around 30 BizTalk integrations for supply and repair flows, with the knowledge held by a few people. Together with Contica they are moving to Azure Integration Services, built on Logic Apps, Functions, API Management and Service Bus, with standardised patterns and better insight into every flow.</p>
+          <p class="case-link"><a href="https://contica.se/om-oss/kundcase/ascom-biztalk-till-azure/">Read the case (Swedish) ↗</a></p>
+        </div>
+        <p class="case-role"><span>My part</span>Solution architect and lead developer</p>
       </article>
     </section>
-  </body>
-  </html>
+
+    <!-- EXPERIENCE -->
+    <section class="experience" id="experience">
+      <header class="section-head">
+        <p class="kicker">Experience</p>
+        <h2>From <em>intern</em><br>to team manager</h2>
+      </header>
+
+      <ol class="ladder">
+        <li class="reveal">
+          <p class="yr">2024<span>— now</span></p>
+          <div>
+            <h3>Team Manager</h3>
+            <p class="org">Contica · Dec 2024 – present</p>
+            <p>Responsible for two teams of eleven people in total, with a focus on strategic growth, recruitment, customer relationships and technical development. The role combines business development, leadership, personnel responsibility and technical responsibility.</p>
+            <ul class="results">
+              <li>Built self-sufficient teams that deliver the whole life cycle, from design and development to operations and further development.</li>
+              <li>Developed colleagues from interns into leading roles through continuous coaching and knowledge sharing.</li>
+              <li>Reduced lead times by 80% through better processes, standardisation and psychological safety.</li>
+              <li>Won new customers and grew an existing customer into one of the company's largest accounts.</li>
+              <li>Drove internal work on a scalable delivery model that does not depend on individuals, raising quality and continuity.</li>
+            </ul>
+          </div>
+        </li>
+        <li class="reveal">
+          <p class="yr">2023<span>— 2024</span></p>
+          <div>
+            <h3>Team Lead &amp; Senior Cloud Developer</h3>
+            <p class="org">Contica · Nov 2023 – Dec 2024</p>
+            <p>Led a team of five and was responsible for cloud integration projects from planning to delivery: fitting technical solutions to the customer's needs, optimising budgets and resources, and acting as the link between customer and developers.</p>
+          </div>
+        </li>
+        <li class="reveal">
+          <p class="yr">2020<span>— 2023</span></p>
+          <div>
+            <h3>Cloud Developer</h3>
+            <p class="org">Contica · Nov 2020 – Nov 2023</p>
+            <p>Developed and implemented cloud-based integration solutions from business requirements, working closely with customers to keep quality and code standards high.</p>
+          </div>
+        </li>
+        <li class="reveal">
+          <p class="yr">2020</p>
+          <div>
+            <h3>Intern</h3>
+            <p class="org">Contica · Jun 2020 – Nov 2020</p>
+            <p>Hands-on experience in cloud development and integration: agile ways of working, troubleshooting and requirements analysis.</p>
+          </div>
+        </li>
+      </ol>
+
+      <div class="credentials">
+        <div class="reveal">
+          <p class="kicker">Education</p>
+          <h3>System Development .NET</h3>
+          <p>IT-Högskolan, Gothenburg · 2019 – 2021. A two-year vocational programme in system development, architecture and scalable solutions. The internship led to my employment at Contica.</p>
+        </div>
+        <div class="reveal">
+          <p class="kicker">Certifications &amp; courses</p>
+          <ul class="plain">
+            <li><strong>Personligt Ledarskap</strong> · IHM Business School, 2026</li>
+            <li><strong>FinOps Certified Practitioner</strong> · FinOps Foundation, 2024</li>
+            <li><strong>Magnetiska människor</strong> · Leadership &amp; Communication</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about light" id="about">
+      <header class="section-head">
+        <p class="kicker">About</p>
+        <h2>Close to the <em>people</em>,<br>close to the tech</h2>
+      </header>
+      <div class="about-grid">
+        <div class="prose reveal">
+          <p class="intro">I am a hands-on leader with a strong technical foundation in cloud and integration: more than six years in the field, three of them in leading roles at Contica.</p>
+          <p>My leadership builds on trust, clarity and technical understanding. I want every team member to grow as an individual and to contribute to the whole, and I care about the structures, processes and culture that make quality and sustainable growth possible, for customers and for us.</p>
+          <p>I like staying close to the technology and take an active part in decisions on architecture, integration patterns and design.</p>
+        </div>
+        <dl class="skills reveal">
+          <div><dt>Leadership</dt><dd>Team management · Project management · Recruitment · Coaching · Customer relationships</dd></div>
+          <div><dt>Cloud &amp; integration</dt><dd>Azure Integration Services · API Management · FinOps</dd></div>
+          <div><dt>Architecture</dt><dd>Scalability · Security · Governance · Cost optimisation</dd></div>
+          <div><dt>Development</dt><dd>C# · .NET · REST · GraphQL · PowerShell</dd></div>
+          <div><dt>DevOps &amp; tools</dt><dd>Azure DevOps · CI/CD · Git</dd></div>
+          <div><dt>Languages</dt><dd>Swedish · English</dd></div>
+        </dl>
+      </div>
+
+      <div class="side reveal">
+        <p class="kicker">Off the clock</p>
+        <p class="side-intro">I still build things from the ground up in my own time.</p>
+        <ul>
+          <li><a href="https://emilmartini.github.io/pressure/"><strong>Pressure</strong><span>A co-op dungeon shooter in Godot. Play it ↗</span></a></li>
+          <li><div><strong>LiftTracker</strong><span>A no-nonsense workout tracker in Next.js</span></div></li>
+          <li><div><strong>MealPilot</strong><span>A meal planner and grocery list app in Flutter</span></div></li>
+          <li><div><strong>Tome</strong><span>An online library for your physical books</span></div></li>
+          <li><a href="https://github.com/EmilMartini/PythonML"><strong>PythonML</strong><span>A neural network from scratch, no numpy ↗</span></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <p class="kicker">Contact</p>
+      <h2>Let's <em>talk</em></h2>
+      <a class="mail" href="mailto:emil.martini@hotmail.com">emil.martini@hotmail.com</a>
+      <ul class="links">
+        <li><a href="https://www.linkedin.com/in/emil-martini-247520192">LinkedIn ↗</a></li>
+        <li><a href="https://github.com/EmilMartini">GitHub ↗</a></li>
+        <li><a href="https://www.contica.se">Contica ↗</a></li>
+      </ul>
+      <p class="colophon">Emil Martini · Gothenburg, Sweden</p>
+    </section>
+  </main>
+
+  <script>
+    (function () {
+      // Fit a line of display type to the width of its container.
+      var fitted = document.querySelectorAll('[data-fit]');
+      function fit() {
+        fitted.forEach(function (el) {
+          var box = el.parentElement;
+          el.style.fontSize = '100px';
+          var w = el.getBoundingClientRect().width;
+          if (w > 0) el.style.fontSize = (100 * box.clientWidth / w * 0.995) + 'px';
+        });
+      }
+      fit();
+      if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
+      window.addEventListener('resize', fit);
+
+      // Reveal sections as they scroll into view.
+      var items = document.querySelectorAll('.reveal');
+      if (!('IntersectionObserver' in window)) {
+        items.forEach(function (el) { el.classList.add('in'); });
+        return;
+      }
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+        });
+      }, { rootMargin: '0px 0px -8% 0px' });
+      items.forEach(function (el) { io.observe(el); });
+    })();
+  </script>
+</body>
+</html>
